@@ -24,18 +24,19 @@ async fn get_article(data: web::Data<AppState>) -> impl Responder {
     return HttpResponse::Ok().json(&*articles);
 }
 
-// async fn get_article_by_id(
-//     article_id: web::Path<i32>,
-//     data: web::Data<AppState>,
-// ) -> impl Responder {
-//     let articles = data.articles.lock().unwrap();
-//     let article = articles
-//         .iter()
-//         .find(|&article| article.id == *article_id)
-//         .unwrap();
-//     println!("Getting article{:?}", article);
-//     return HttpResponse::Ok().json(&article);
-// }
+async fn get_article_by_id(
+    article_id: web::Path<i32>,
+    data: web::Data<AppState>,
+) -> impl Responder {
+    let articles = data.articles.lock().unwrap();
+    match articles.iter().find(|&article| article.id == *article_id) {
+        Some(article) => {
+            println!("Getting article{:?}", article);
+            return HttpResponse::Ok().json(&article);
+        }
+        None => return HttpResponse::NotFound().finish(),
+    }
+}
 
 async fn create_article(
     new_article: web::Json<NewArticle>,
@@ -65,6 +66,7 @@ async fn main() -> std::io::Result<()> {
         App::new().app_data(app_state.clone()).service(
             web::scope("/articles")
                 .route("/", web::get().to(get_article))
+                .route("/{id}", web::get().to(get_article_by_id))
                 .route("/create", web::post().to(create_article)),
         )
     })
