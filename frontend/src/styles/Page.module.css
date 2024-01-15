@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(26, 26, 26);
+    color: #cecece; /* This is a shade of green. */
+    font-family: andale mono, monospace;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
