@@ -1,7 +1,7 @@
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: left;
     align-items: flex-start;
     height: auto;
     margin: 1.5% 30%;
@@ -16,32 +16,32 @@
   .experienceHeading {
     font-size: 1.75rem;
     font-weight: 500;
-    font-family: "Fira Code";
-    color: #6adac4;
+    font-family: andale mono, monospace;
+    color: #ff0000;
     margin: 1rem 0;
   }
   
   .experienceCardHeading {
     font-size: 1.25rem;
     font-weight: 500;
-    font-family: "Fira Code";
-    color: #6adac4;
+    font-family: andale mono, monospace;
+    color: #ff0000;
     margin: 1rem 0;
   }
   
   .experienceCardSubHeading {
     font-size: 1.25rem;
     font-weight: 700;
-    font-family: "Fira Code";
-    color: #868aa4;
+    font-family: andale mono, monospace;
+    color: #ff000078;
     margin: 1rem 0;
   }
   
   .experienceCardDuration {
     font-size: 0.75rem;
     font-weight: 500;
-    font-family: "Fira Code";
-    color: #868aa4;
+    font-family: andale mono, monospace;
+    color: #ffffff;
     margin: 1rem 0;
   }
   
@@ -49,7 +49,7 @@
     .container {
       width: 70%;
       flex-direction: column;
-      justify-content: center;
+      justify-content: left;
       align-items: flex-start;
       margin: 0 0;
       border: none;
@@ -61,7 +61,7 @@
     .container {
       width: 70%;
       flex-direction: column;
-      justify-content: center;
+      justify-content: left;
       align-items: flex-start;
       margin: 1.5% 0;
     }
@@ -71,7 +71,7 @@
     .experienceHeading {
       width: 100%;
       font-size: 1.25rem;
-      text-align: center;
+      text-align: left;
     }
     .experienceCardHeading {
       font-size: 1rem;
