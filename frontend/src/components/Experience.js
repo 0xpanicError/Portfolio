@@ -6,12 +6,10 @@ const Experience = () => {
     <div className={styles.container}>
       <div className={styles.experienceCard}>
         <div className={styles.experienceCardLeft}>
-          <div className={styles.experienceCardHeading}>
-            Software Engineering Intern
-          </div>
-          <div className={styles.experienceCardSubHeading}>BlockFlow</div>
+          <div className={styles.experienceCardHeading}>ZK Security Fellow</div>
+          <div className={styles.experienceCardSubHeading}>yAcademy</div>
           <div className={styles.experienceCardDuration}>
-            Aug 2023 - Nov 2023
+            Jan 2024 - Present
           </div>
         </div>
         <div className={styles.experienceCardRight}></div>
@@ -19,13 +17,13 @@ const Experience = () => {
       <div className={styles.experienceCard}>
         <div className={styles.experienceCardLeft}>
           <div className={styles.experienceCardHeading}>
-            Software Engineering Intern
+            Blockchain Developer Intern
           </div>
           <div className={styles.experienceCardSubHeading}>
             Push Protocol | EPNS
           </div>
           <div className={styles.experienceCardDuration}>
-            May 2023 - Aug 2023
+            May 2023 - Sep 2023
           </div>
         </div>
         <div className={styles.experienceCardRight}></div>
