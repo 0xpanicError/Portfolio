@@ -1,0 +1,127 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: auto;
+    margin: 1.5% 0;
+    width: inherit;
+    gap: 2rem;
+    background: #16161e;
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+  }
+  
+  .Image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+  
+  .Image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+  }
+  
+  .Card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: auto;
+    width: 80%;
+  }
+  
+  .Name {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Fira Code";
+    color: #868aa4;
+    margin: 1rem 0;
+  }
+  
+  .Description {
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: "Fira Code";
+    color: #868aa4;
+    margin: 1rem 0;
+    line-height: 1.5;
+  }
+  
+  .Links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: auto;
+    margin: 1.5% 0;
+    gap: 0.5rem;
+    width: 100%;
+    color: #6adac4;
+    font-family: "Fira Code";
+    cursor: pointer;
+  }
+  
+  .Links:hover {
+    color: #3aa6b5;
+  }
+  
+  @media screen and (max-width: 820px) {
+    .container {
+      width: 80%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      margin: 0 0;
+      border: none;
+      margin-top: 1rem;
+      padding: 5% 10%;
+    }
+  }
+  
+  @media screen and (max-width: 430px) {
+    .container {
+      width: 100%;
+      padding: 12% 0%;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .Image {
+      justify-content: flex-start;
+    }
+    .Card {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 5%;
+    }
+    .Name {
+      font-size: 1.25rem;
+      margin: 0 15%;
+      display: flex;
+      width: 70%;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }
+    .Description {
+      display: flex;
+      width: 70%;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size: 0.75rem;
+    }
+    .Links {
+      font-size: 0.75rem;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }

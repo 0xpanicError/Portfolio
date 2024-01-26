@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import Project from "../components/Project";
 import styles from "../styles/Page.module.css";
 
 function Projects() {
@@ -7,8 +8,7 @@ function Projects() {
     <div className={styles.container}>
       <Navbar />
       <h1>Projects</h1>
-      {/* Replace with your actual content */}
-      <p>Here are some of my projects...</p>
+      <Project />
     </div>
   );
 }
