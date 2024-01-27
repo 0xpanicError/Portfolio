@@ -52,26 +52,26 @@
     align-items: flex-start;
   }
   
-  @media screen and (max-width: 8200px) {
-    .container {
-      width: 70%;
-      flex-direction: column;
-      justify-content: center;
-      align-items: flex-start;
-      margin: 0 0;
-      border: none;
-      padding: 6% 15%;
-    }
-  }
-  
-  @media screen and (max-width: 430px) {
-    .container {
-      width: 70%;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-    .projectHeading {
-      font-size: 1.25rem;
-    }
+    @media screen and (max-width: 8000px) {
+        .container {
+          width: 70%;
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-start; /* Keeps items left-aligned */
+          margin: 0 0;
+          border: none;
+          padding: 6% 15%;
+        }
+      }
+      
+      @media screen and (max-width: 800px) {
+        .container {
+          width: 70%;
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-start; /* Changed from center to flex-start for left alignment */
+        }
+        .projectHeading {
+          font-size: 1.25rem;
+        }
   }

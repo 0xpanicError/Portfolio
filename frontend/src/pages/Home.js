@@ -9,28 +9,64 @@ function Home() {
       <br />
       <br />
       <br />
-      <h1>Welcome to My Blockchain Portfolio</h1>
-      <br />
+      <h3>Hi! My name is Yash Saraswat but you can call me panic.</h3>
+      <h2>About Me</h2>
       <p>
-        Paragraph 1 content goes here. This might include an introduction about
-        yourself, your interest in blockchain development, and what visitors can
-        expect to find on your website.
+        I'm a third year engineering student at IIT Rookee. I'm majoring in
+        Material Science but my passion is Blockchain Techonolgy and
+        cryptography. I'm a self taught developer and I've been exploring these
+        fields since 2022.
       </p>
-      <br />
       <p>
-        Paragraph 2 content goes here. This might delve deeper into your
-        experiences or your philosophy as a blockchain developer.
+        I harbour a keen interest in the fields of Restaking and Programmable
+        Trust, ZK cryptography, Blockchain Security and Rollups. I'm also the
+        Joint Secretary at the Blockchain Society, IIT Roorkee.
       </p>
-      <br />
       <p>
-        Paragraph 3 content goes here. Maybe you want to talk about recent
-        projects you've completed or key skills you've acquired.
+        Before diving into the world of Blockchain, I was enganed in the field
+        of Quantum Computuing and Physics. I have also explored mechanical and
+        racecar engineering in a motorsports club at my University. I have a
+        deep passion for pursuing my curiosty in physics and technology.
       </p>
-      <br />
-      <p>
-        Paragraph 4 content goes here. This might be a call to action, asking
-        visitors to check out your projects or get in touch with you.
-      </p>
+      <h2>Skills</h2>
+      <ul>
+        <li>
+          <b>Programing languages:</b> Rust, Solidity, Javascript/Typescript,
+          C++
+        </li>
+        <li>
+          <b>Web Development:</b> ExpressJs, MongoDB, Actix
+        </li>
+        <li>
+          <b>Blockchain Development:</b> EVM, Remix, Ethers.js, Foundry, Huff
+        </li>
+        <li>
+          <b>Tools:</b> Git, GitHub, Postman, Docker
+        </li>
+        <li>
+          <b>Math:</b> Linear Algebra, Abstract Algebra, Multivariable Calculus,
+          Differential Calculus, Elliptic Curves cryptography, PLonk
+        </li>
+      </ul>
+      <h2>Contact Me</h2>
+      <p>If you wanna chat, just hit me up!</p>
+      <ul>
+        <li>
+          <b>Email:</b> theyashsaraswat@gmail.com
+        </li>
+        <li>
+          <b>Discord:</b> 0xpanicError
+        </li>
+        <li>
+          <b>Telegram:</b> @yash2399
+        </li>
+        <li>
+          <b>Twitter:</b> @0xpanicError
+        </li>
+        <li>
+          <b>GitHub:</b> @0xpanicError
+        </li>
+      </ul>
     </div>
   );
 }

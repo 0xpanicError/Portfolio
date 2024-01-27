@@ -12,7 +12,7 @@ const Card = (props) => {
         <div className={styles.Description}>{props.description}</div>
         <div className={styles.Links}>
           <a href={props.githubLink} target="_blank" rel="noreferrer">
-            <div className={styles.Link}>Github</div>
+            <div className={styles.projectLink}>Github</div>
           </a>
         </div>
       </div>
