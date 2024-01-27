@@ -7,7 +7,7 @@
     margin: 1.5% 0;
     width: inherit;
     gap: 2rem;
-    background: #16161e;
+    background: #320000;
     border-radius: 10px;
     padding: 1rem 1.5rem;
   }
@@ -37,7 +37,7 @@
   .Name {
     font-size: 20px;
     font-weight: 700;
-    font-family: "Fira Code";
+    font-family: "andale mono, monospace";
     color: #868aa4;
     margin: 1rem 0;
   }
@@ -45,7 +45,7 @@
   .Description {
     font-size: 1rem;
     font-weight: 500;
-    font-family: "Fira Code";
+    font-family: "andale mono, monospace";
     color: #868aa4;
     margin: 1rem 0;
     line-height: 1.5;
@@ -61,7 +61,7 @@
     gap: 0.5rem;
     width: 100%;
     color: #6adac4;
-    font-family: "Fira Code";
+    font-family: "andale mono, monospace";
     cursor: pointer;
   }
   
