@@ -1,16 +1,16 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import Articles from "../components/Article";
 import styles from "../styles/Page.module.css";
 
-function Articles() {
+function Article() {
   return (
     <div className={styles.container}>
       <Navbar />
       <h1>Articles</h1>
-      {/* Replace with your actual content */}
-      <p>Here are some articles...</p>
+      <Articles />
     </div>
   );
 }
 
-export default Articles;
+export default Article;

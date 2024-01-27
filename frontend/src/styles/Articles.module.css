@@ -8,39 +8,12 @@
     gap: 0.5rem;
     /* border-bottom: #868aa4 1px solid; */
   }
-
-  .projectInfo {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    height: auto;
-    margin: 1.5% 3%;
-    gap: 0.5rem;
-    /* border-bottom: #868aa4 1px solid; */
-  }
   
-  .projectName {
+  .projectHeading {
     font-size: 1.75rem;
     font-weight: 500;
-    font-family: andale mono, monospace;
-    color: #ff0000;
-    margin: 0.75rem 0;
-  }
-
-  .projectDescription {
-    font-size: 1rem;
-    font-weight: 500;
-    font-family: andale mono, monospace;
-    color: #ffffff;
-    margin: 0.1rem 0;
-  }
-
-  .projectLink {
-    font-size: 1rem;
-    font-weight: 200;
-    font-family: andale mono, monospace;
-    color: #ff0000;
+    font-family: "Fira Code";
+    color: #6adac4;
     margin: 1rem 0;
   }
   
@@ -52,7 +25,7 @@
     align-items: flex-start;
   }
   
-  @media screen and (max-width: 8000px) {
+  @media screen and (max-width: 1512px) {
     .container {
       width: 70%;
       flex-direction: column;
@@ -64,7 +37,7 @@
     }
   }
   
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 430px) {
     .container {
       width: 70%;
       flex-direction: column;
