@@ -7,10 +7,10 @@ const Articles = () => {
     <div className={styles.container}>
       <div className={styles.projectList}>
         <ArticleCard
-          id={"1"}
-          name={"Aptos Zero Day Futures"}
+          slug={"merklesumtree"}
+          name={"Merkle Sum Tree"}
           description={
-            "Developed a fast and secure Zero day to expiry futures trading platform on Aptos L1."
+            "What is a Merkle Sum Tree and how is it used in Proof of Solvency protocols?"
           }
           image={
             "https://aptosfoundation.org/brandbook/logomark/PNG/Aptos_mark_WHT.png"

@@ -6,7 +6,7 @@ const Card = (props) => {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate(`/articles/${props.id}`);
+    navigate(`/articles/${props.slug}`);
   };
 
   return (

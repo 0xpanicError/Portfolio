@@ -9,7 +9,7 @@
     /* border-bottom: #868aa4 1px solid; */
   }
   
-  .projectHeading {
+  .articleHeading {
     font-size: 1.75rem;
     font-weight: 500;
     font-family: "Fira Code";
@@ -17,7 +17,7 @@
     margin: 1rem 0;
   }
   
-  .projectList {
+  .articleList {
     width: 100%;
     display: flex;
     flex-direction: column;

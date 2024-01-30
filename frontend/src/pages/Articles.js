@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import Articles from "../components/Article";
+import Articles from "../components/ArticlesList";
 import styles from "../styles/Page.module.css";
 
 function Article() {

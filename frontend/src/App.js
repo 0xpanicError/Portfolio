@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Career from "./pages/Career";
 import Articles from "./pages/Articles";
-import ArticlePage from "./pages/Articles/ArticlePage";
+import MerkleSumTreeArticle from "./pages/Articles/MerkleSumTree";
 
 function App() {
   return (
@@ -14,7 +14,10 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/career" element={<Career />} />
         <Route path="/articles" element={<Articles />} />
-        <Route path="/articles/:id" element={<ArticlePage />} />
+        <Route
+          path="/articles/merklesumtree"
+          element={<MerkleSumTreeArticle />}
+        />
       </Routes>
     </Router>
   );
