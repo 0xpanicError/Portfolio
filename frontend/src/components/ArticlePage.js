@@ -10,6 +10,7 @@ const ArticlePage = (articles) => {
       <div className={styles.projectList}>
         <h1>{articles.name}</h1>
         {articles.date}
+        <br /> <br />
         <div className={styles.description}>
           <ReactMarkdown>{articles.description}</ReactMarkdown>
         </div>
