@@ -11,8 +11,27 @@ body {
   }
 
   .description {
+    font-family: andale mono, monospace;
+    color: #cecece;
+    margin: 1rem 0;
+  }
+
+  .articleBody {
+    max-width: 70%;
+    text-align: justify;
     font-size: 1rem;
     font-family: andale mono, monospace;
     color: #cecece;
     margin: 1rem 0;
+    float: left;
+  }
+
+  .tableContent {
+    max-width: 25%;
+    text-align: centre;
+    font-size: 1rem;
+    font-family: andale mono, monospace;
+    color: #cecece;
+    margin: 1rem 0;
+    float: right;
   }
