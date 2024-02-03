@@ -5,18 +5,17 @@ const MerkleSumTreeArticle = () => {
   return (
     <div className={styles.container}>
       <Navbar />
-      <div>
-        <div className={styles.articleTitle}>
-          <h1>
-            Security Analysis of Merkle Sum Tree and how it is used in Proof of
-            Solvency Protocols
-          </h1>
-        </div>
+
+      <div className={styles.articleTitle}>
+        <h1>
+          Security Analysis of Merkle Sum Tree and how it is used in Proof of
+          Solvency Protocols
+        </h1>
         3rd February 2024
       </div>
       <div className={styles.articleBody}>
         <div className={styles.articleBodyLeft}>
-          {" "}
+          <br />
           A Merkle Sum Tree is similar to a Merkle Tree but in addition also has
           a balance value for each leaf node. The balance of each middle node is
           the sum of the balances of its child nodes and hence the root of this

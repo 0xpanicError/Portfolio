@@ -7,8 +7,12 @@ function Career() {
   return (
     <div className={styles.container}>
       <Navbar />
-      <h1>Career</h1>
-      <Experience />
+      <div className={styles.projectTitle}>
+        <h1>Career</h1>
+      </div>
+      <div className={styles.projectBody}>
+        <Experience />
+      </div>
     </div>
   );
 }

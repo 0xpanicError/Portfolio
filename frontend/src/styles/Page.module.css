@@ -7,12 +7,36 @@ body {
   .container {
     max-width: 900px;
     margin: 0 auto;
+    position: relative;
+    top: 0;
   }
 
   .description {
     font-family: andale mono, monospace;
     color: #cecece;
     margin: 1rem 0;
+  }
+
+  .aboutBody {
+    max-width: 900px;
+    position: relative;
+    top: 100px;
+  }
+
+  .projectTitle {
+    max-width: 100%;
+    position: fixed;
+    top: 150px;
+    z-index: 2;
+    padding-right: 100rem;
+    background-color: rgb(26, 26, 26);
+  }
+
+  .projectBody {
+    max-width: 900px;
+    position: relative;
+    align-items: left;
+    top: 170px;
   }
 
   .articleTitle {
@@ -22,18 +46,21 @@ body {
     font-family: andale mono, monospace;
     background-color: rgb(26, 26, 26);
     color: #cecece;
+    position: fixed;
+    top: 155px;
+    padding-bottom: 1rem;
   }
 
   .articleBody {
     display: flex;
-    flex-direction: row;
+    max-width: 70%;
     text-align: justify;
     gap: 2rem;
+    padding-top: 18rem;
   }
   
   .tableContent {
-    >h4{
-      padding: 0;
-      margin: 0;
-    }
+    position: fixed;
+    padding-left: 42rem;
+    text-align: left;
   }

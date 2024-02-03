@@ -7,8 +7,12 @@ function Projects() {
   return (
     <div className={styles.container}>
       <Navbar />
-      <h1>Projects</h1>
-      <Project />
+      <div className={styles.projectTitle}>
+        <h1>Projects </h1>
+      </div>
+      <div className={styles.projectBody}>
+        <Project />
+      </div>
     </div>
   );
 }
