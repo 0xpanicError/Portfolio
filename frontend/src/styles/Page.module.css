@@ -17,6 +17,12 @@ body {
     margin: 1rem 0;
   }
 
+  .articlePage {
+    max-width: 100%;
+    position: fixed;
+    top: 100px;
+  }
+
   .aboutBody {
     max-width: 900px;
     position: relative;

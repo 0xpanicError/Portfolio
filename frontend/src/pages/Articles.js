@@ -7,7 +7,9 @@ function Article() {
   return (
     <div className={styles.container}>
       <Navbar />
-      <h1>Articles</h1>
+      <div className={styles.projectTitle}>
+        <h1>Articles</h1>
+      </div>
       <Articles />
     </div>
   );

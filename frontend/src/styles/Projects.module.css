@@ -1,20 +1,12 @@
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    height: auto;
+  padding-top: 70px;
     margin: 1.5% 30%;
     gap: 0.5rem;
     /* border-bottom: #868aa4 1px solid; */
   }
 
   .projectInfo {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    height: auto;
+    max-width: 100%;
     margin: 1.5% 3%;
     gap: 0.5rem;
     /* border-bottom: #868aa4 1px solid; */
@@ -44,34 +36,3 @@
     margin: 1rem 0;
   }
   
-  .projectList {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
-  
-  @media screen and (max-width: 8000px) {
-    .container {
-      width: 70%;
-      flex-direction: column;
-      justify-content: center;
-      align-items: flex-start;
-      margin: 0 0;
-      border: none;
-      padding: 6% 15%;
-    }
-  }
-  
-  @media screen and (max-width: 800px) {
-    .container {
-      width: 70%;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-    .projectHeading {
-      font-size: 1.25rem;
-    }
-  }

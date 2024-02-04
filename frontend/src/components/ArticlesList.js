@@ -5,7 +5,7 @@ import ArticleCard from "./Card";
 const Articles = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.projectList}>
+      <div className={styles.articleList}>
         <ArticleCard
           slug={"merklesumtree"}
           name={"Merkle Sum Tree"}
