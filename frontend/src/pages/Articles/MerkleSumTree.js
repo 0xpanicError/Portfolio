@@ -1,5 +1,8 @@
 import Navbar from "../../components/Navbar";
 import styles from "../../styles/Page.module.css";
+import ArticleCover from "../../assets/MST_1.png";
+import Img2 from "../../assets/MST_2.png";
+import Img3 from "../../assets/MST_3.png";
 
 const MerkleSumTreeArticle = () => {
   return (
@@ -16,6 +19,13 @@ const MerkleSumTreeArticle = () => {
       <div className={styles.articleBody}>
         <div className={styles.articleBodyLeft}>
           <br />
+          <img
+            src={ArticleCover}
+            alt="Merkle Sum Tree"
+            className={styles.articleImage}
+          />
+          <br />
+          <br />
           A Merkle Sum Tree is similar to a Merkle Tree but in addition also has
           a balance value for each leaf node. The balance of each middle node is
           the sum of the balances of its child nodes and hence the root of this
@@ -27,14 +37,17 @@ const MerkleSumTreeArticle = () => {
           <br />
           <br />
           The leaf node includes information like the balance, username or Id
-          and a nonce. The hash of a leaf node is hence:
-          <b>h = H(v || id || nonce)</b> The hash of a middle node upto the root
-          is:
+          and a nonce.
+          <br />
+          <br />
+          The hash of a leaf node is hence:
+          <b> h = H(v || id || nonce)</b> and the hash of a middle node upto the
+          root is:
           <br />
           <b>h = (vr + vl || hr || hl)</b>
           <br /> *where v represents the balance
-          <br /> r suffix represents right child and l suffix represents the
-          left child
+          <br /> r suffix represents the right child
+          <br /> l suffix represents the left child
           <h3>Vulnerebility Analysis</h3>
           This original form of Merkle Sum Tree is prone to an attack where the
           custodian can lie and report less liabilities than they actually hold.
@@ -43,8 +56,16 @@ const MerkleSumTreeArticle = () => {
           the users.
           <br />
           <br />
+          <img
+            src={Img2}
+            alt="Merkle Sum Tree"
+            className={styles.articleImage}
+          />
+          <br />
+          <br />
           The attack can take place when the custodian builds a Merkle Tree
           where Balance of a middle node is v where:
+          <br />
           <b> {"max(vr, vl) <= v <= vr + vl"}</b>
           <br />
           <br />
@@ -61,8 +82,10 @@ const MerkleSumTreeArticle = () => {
           <br />
           <br />
           At each step, instead of providing me the actual balance in the node,
-          the custodian just provide me the value v = max(vr, vl) - v’ *where v’
-          is the balance of my node
+          the custodian just provide me the value:
+          <br /> <b>v = max(vr, vl) - v’</b>
+          <br />
+          *where v’ is the balance of my node
           <br />
           <br />
           This way at each step the total balance will sum up to max(vr, vl) and
@@ -78,7 +101,15 @@ const MerkleSumTreeArticle = () => {
           about the tree.
           <br />
           <br />
+          <img
+            src={Img3}
+            alt="Merkle Sum Tree"
+            className={styles.articleImage}
+          />
+          <br />
+          <br />
           In practice the custodian can put any value v:
+          <br />
           <b>{"max(vr, vl) <= v <= vr +vl"}</b>
           <br />
           *Assumption: the custodian has no intention to overstate its
@@ -104,16 +135,18 @@ const MerkleSumTreeArticle = () => {
           <br />
           <br />
           Instead of hashing the sum of balances of child nodes, a middle node
-          can instead use the hash: <b>h = H(vr || vl || hr || hl)</b> This way
-          the custodian cannot lie about the balances of other nodes not visible
-          to the user as any attempt at tampering the merkle tree will change
-          the hash and not allow the users to verify proof of inclusion.
+          can instead use the hash: <b>h = H(vr || vl || hr || hl)</b>
+          <br />
+          This way the custodian cannot lie about the balances of other nodes
+          not visible to the user as any attempt at tampering the merkle tree
+          will change the hash and not allow the users to verify proof of
+          inclusion.
           <br />
           <br />
           Another approach (taken by summa) is to provide along with the Merkle
-          proof, a ZK proof: <b>{"π = ZK.Prove{(x) : h = H(v||x)}"}</b> A user
-          after verifying this zk proof will be convinced that the balance of
-          each leaf node is aggregated correctly.
+          proof, a ZK proof: <b>{"π = ZK.Prove{(x) : h = H(v||x)}"}</b>
+          <br />A user after verifying this zk proof will be convinced that the
+          balance of each leaf node is aggregated correctly.
         </div>
         <div className={styles.tableContent}>
           <h4>Table of Contents</h4>

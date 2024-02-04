@@ -63,6 +63,11 @@ body {
     text-align: justify;
     gap: 2rem;
     padding-top: 18rem;
+    padding-bottom: 5rem;
+  }
+
+  .articleImage {
+    max-width: 100%;
   }
   
   .tableContent {
