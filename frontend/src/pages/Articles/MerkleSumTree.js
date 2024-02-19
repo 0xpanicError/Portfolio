@@ -11,8 +11,7 @@ const MerkleSumTreeArticle = () => {
 
       <div className={styles.articleTitle}>
         <h1>
-          Security Analysis of Merkle Sum Tree and how it is used in Proof of
-          Solvency Protocols
+          Merkle Sum Tree: A Vulnerability Analysis and Mitigation Strategies
         </h1>
         3rd February 2024
       </div>
@@ -26,14 +25,16 @@ const MerkleSumTreeArticle = () => {
           />
           <br />
           <br />
-          A Merkle Sum Tree is similar to a Merkle Tree but in addition also has
-          a balance value for each leaf node. The balance of each middle node is
-          the sum of the balances of its child nodes and hence the root of this
-          Merkle Sum Tree has the cumulative balance of all its leaf nodes. This
-          scheme was introduced for custodians to commit proof of liabilities so
-          that there is cryptographic evidence of solvency. Custodians are
-          supposed to include balances of each user in the leaf nodes and build
-          a tree to report their total liabilities.
+          A Merkle Sum Tree is similar to a Merkle Tree but in addition to
+          hashes, it also has a balance value for each node. Each leaf node
+          contains the hash of a username and a balance of that user. The
+          balance of each middle node is the sum of the balances of its child
+          nodes and hence the root of this Merkle Sum Tree has the cumulative
+          balance of all its leaf nodes. This scheme was introduced for
+          custodians to commit proof of liabilities so that there is
+          cryptographic evidence of solvency. Custodians are supposed to include
+          balances of each user in the leaf nodes and build a tree to report
+          their total liabilities.
           <br />
           <br />
           The leaf node includes information like the balance, username or Id
