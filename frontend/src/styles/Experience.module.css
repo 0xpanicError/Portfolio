@@ -1,16 +1,5 @@
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: flex-start;
-    height: auto;
-    margin: 1.5% 30%;
-    gap: 0.5rem;
-    /* border-bottom: #868aa4 1px solid; */
-  }
-  
-  .experienceCard {
-    /* border-bottom: #868aa4 1px solid; */
+    
   }
   
   .experienceHeading {
