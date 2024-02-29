@@ -16,6 +16,16 @@ const Articles = () => {
             "https://aptosfoundation.org/brandbook/logomark/PNG/Aptos_mark_WHT.png"
           }
         />
+        <ArticleCard
+          slug={"provernetworks"}
+          name={"Federated Prover Networks"}
+          description={
+            "What is a Federated Prover Network and how does it work? What are its applications?"
+          }
+          image={
+            "https://aptosfoundation.org/brandbook/logomark/PNG/Aptos_mark_WHT.png"
+          }
+        />
       </div>
     </div>
   );

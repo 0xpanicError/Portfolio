@@ -5,6 +5,7 @@ import Projects from "./pages/Projects";
 import Career from "./pages/Career";
 import Articles from "./pages/Articles";
 import MerkleSumTreeArticle from "./pages/Articles/MerkleSumTree";
+import FederatedProverNetworkArticle from "./pages/Articles/FederatedProverNetwork";
 
 function App() {
   return (
@@ -17,6 +18,10 @@ function App() {
         <Route
           path="/articles/merklesumtree"
           element={<MerkleSumTreeArticle />}
+        />
+        <Route
+          path="/articles/provernetworks"
+          element={<FederatedProverNetworkArticle />}
         />
       </Routes>
     </Router>
