@@ -173,10 +173,11 @@ const MerkleSumTreeArticle = () => {
           and construct a tree with values to minimize the chance of realizing
           an attack.
           <h3>Mitigation</h3>
-          This vulnerability was originally discovered in this paper which also
-          provided two mitigation solutions in section 3.2 Include balances of
-          both child nodes in the hash of middle node Provide zk proof of
-          hashing along with merkle proof
+          This vulnerability was originally discovered in{" "}
+          <a href="https://eprint.iacr.org/2022/043.pdf">this</a> paper which
+          also provided mitigation solution. Include balances of both child
+          nodes in the hash of middle node Provide zk proof of hashing along
+          with merkle proof
           <br />
           <br />
           Instead of hashing the sum of balances of child nodes, a middle node
@@ -188,16 +189,34 @@ const MerkleSumTreeArticle = () => {
           inclusion.
           <br />
           <br />
-          Another approach (taken by summa) is to provide along with the Merkle
-          proof, a ZK proof: <b>{"π = ZK.Prove{(x) : h = H(v||x)}"}</b>
+          <a href="https://eprint.iacr.org/2018/1139.pdf">This</a> paper talks
+          about another approach (taken by summa) in section 3.2 which is to
+          provide along with the Merkle proof, a ZK proof:{" "}
+          <b>{"π = ZK.Prove{(x) : h = H(v||x)}"}</b>
           <br />A user after verifying this zk proof will be convinced that the
           balance of each leaf node is aggregated correctly.
         </div>
         <div className={styles.tableContent}>
           <h4>Table of Contents</h4>
           <ul>
+            <li>Introduction</li>
+            <br />
+            <li>Proof of Solvency</li>
+            - How does it work?
+            <br /> - Case Study: Summa
+            <br />
+            <br />
+            <li>Merkle Sum Tree</li>
+            <br />
             <li>Vulnerebility Analysis</li>
-            <li>Mitigation</li>
+            - MST is broken
+            <br />- How custodians can lie
+            <br />
+            <br />
+            <li>Mitigation</li>- Solution to the broken
+            <br />
+            Merkle Sum Tree
+            <br />- Summa's approach
           </ul>
         </div>
       </div>
