@@ -6,6 +6,7 @@ import Career from "./pages/Career";
 import Articles from "./pages/Articles";
 import MerkleSumTreeArticle from "./pages/Articles/MerkleSumTree";
 import FederatedProverNetworkArticle from "./pages/Articles/FederatedProverNetwork";
+import EigenLayerAVSArticle from "./pages/Articles/EigenLayerAVS";
 
 function App() {
   return (
@@ -22,6 +23,10 @@ function App() {
         <Route
           path="/articles/provernetworks"
           element={<FederatedProverNetworkArticle />}
+        />
+        <Route
+          path="/articles/eigenlayeravs"
+          element={<EigenLayerAVSArticle />}
         />
       </Routes>
     </Router>

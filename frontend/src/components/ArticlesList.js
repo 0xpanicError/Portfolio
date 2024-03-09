@@ -26,6 +26,16 @@ const Articles = () => {
             "https://aptosfoundation.org/brandbook/logomark/PNG/Aptos_mark_WHT.png"
           }
         />
+        <ArticleCard
+          slug={"eigenlayeravs"}
+          name={"EigenLayer AVS"}
+          description={
+            "How to build an AVS on EigenLayer? A Technical Overview"
+          }
+          image={
+            "https://aptosfoundation.org/brandbook/logomark/PNG/Aptos_mark_WHT.png"
+          }
+        />
       </div>
     </div>
   );
