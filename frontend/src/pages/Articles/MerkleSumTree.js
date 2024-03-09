@@ -14,7 +14,7 @@ const MerkleSumTreeArticle = () => {
         <h1>
           Merkle Sum Tree: A Vulnerability Analysis and Mitigation Strategies
         </h1>
-        3rd February 2024
+        9th March 2024
       </div>
       <div className={styles.articleBody}>
         <div className={styles.articleBodyLeft}>
@@ -194,7 +194,19 @@ const MerkleSumTreeArticle = () => {
           provide along with the Merkle proof, a ZK proof:{" "}
           <b>{"π = ZK.Prove{(x) : h = H(v||x)}"}</b>
           <br />A user after verifying this zk proof will be convinced that the
-          balance of each leaf node is aggregated correctly.
+          balance of each leaf node is aggregated correctly. This is beacuse if
+          the custodian tries lie about the liabilities commitment, they also
+          would require to submit a zk proof for constructing the tree which
+          wouldnt be possible.
+          <br />
+          <br />
+          Proof of Concept for this attack shows that even if you modify the
+          Merkle Sum Tree construction, the circuits that include a sum
+          constraint would not compile and generate a false proof.
+          <br />
+          <a href="https://github.com/rkdud007/summa-solvency/pull/1">
+            Link to POC
+          </a>
         </div>
         <div className={styles.tableContent}>
           <h4>Table of Contents</h4>
