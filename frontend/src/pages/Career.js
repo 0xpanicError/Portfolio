@@ -1,17 +1,21 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import styles from "../styles/Career.module.css";
 import Experience from "../components/Experience";
-import pageStyles from "../styles/Page.module.css";
 
 function Career() {
   return (
-    <div className={pageStyles.container}>
-      <Navbar />
-      <div className={pageStyles.projectTitle}>
-        <h1>Career</h1>
+    <div className={styles.container}>
+      <div className={styles.nav}>
+        <Navbar />
       </div>
-      <div className={pageStyles.projectBody}>
-        <Experience />
+      <div className={styles.pageBody}>
+        <div className={styles.careerTitle}>
+          <h1>Career</h1>
+        </div>
+        <div className={styles.careerBody}>
+          <Experience />
+        </div>
       </div>
     </div>
   );

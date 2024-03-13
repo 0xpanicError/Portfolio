@@ -3,6 +3,12 @@ body {
     color: #cecece; /* This is a shade of green. */
     font-family: andale mono, monospace;
   }
+
+  .nav{
+    position: fixed;
+    top: 0;
+    z-index: 2;
+  }
   
   .container {
     max-width: 900px;

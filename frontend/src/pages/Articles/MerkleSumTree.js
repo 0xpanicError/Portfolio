@@ -8,8 +8,9 @@ import Img3 from "../../assets/merklesumtree/MST_3.png";
 const MerkleSumTreeArticle = () => {
   return (
     <div className={styles.container}>
-      <Navbar />
-
+      <div className={styles.nav}>
+        <Navbar />
+      </div>
       <div className={styles.articleTitle}>
         <h1>
           Merkle Sum Tree: A Vulnerability Analysis and Mitigation Strategies

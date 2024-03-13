@@ -1,17 +1,21 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Project from "../components/Project";
-import styles from "../styles/Page.module.css";
+import styles from "../styles/Projects.module.css";
 
 function Projects() {
   return (
     <div className={styles.container}>
-      <Navbar />
-      <div className={styles.projectTitle}>
-        <h1>Projects </h1>
+      <div className={styles.nav}>
+        <Navbar />
       </div>
-      <div className={styles.projectBody}>
-        <Project />
+      <div className={styles.pageBody}>
+        <div className={styles.projectTitle}>
+          <h1>Projects </h1>
+        </div>
+        <div className={styles.projectBody}>
+          <Project />
+        </div>
       </div>
     </div>
   );

@@ -1,16 +1,14 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import styles from "../styles/Page.module.css";
+import styles from "../styles/Home.module.css";
 
 function Home() {
   return (
     <div className={styles.container}>
-      {" "}
-      <Navbar />
+      <div className={styles.nav}>
+        <Navbar />
+      </div>
       <div className={styles.aboutBody}>
-        <br />
-        <br />
-        <br />
         <h3>Hi! My name is Yash Saraswat but you can call me panic.</h3>
         <h2>About Me</h2>
         <p>

@@ -1,0 +1,56 @@
+.container {
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    }
+
+    .projectCard {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .projectInfo {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .projectCardImage {
+        width: 64px;
+        height: 64px;
+        border-radius: 10%;
+    }
+
+    .headings{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
+    .projectName {
+        font-size: 1.25rem;
+        font-weight: 700;
+        font-family: andale mono, monospace;
+        color: #ff0000;
+    }
+
+    .projectDescription {
+        font-size: 1rem;
+        font-weight: 500;
+        font-family: andale mono, monospace;
+    }
+
+
+
+    
+    

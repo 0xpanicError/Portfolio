@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 20%;
+  }
+
+  .nav{
+    position: fixed;
+    top: 0;
+    z-index: 2;
+  }
+
+.aboutBody {
+    margin: 0 20%;
+    position: absolute;
+    top: 170px;
+}

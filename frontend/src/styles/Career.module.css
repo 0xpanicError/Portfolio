@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 20%;
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+  
+.pageBody {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    position: relative;
+    top: 160px;
+}
+
+.careerTitle {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    font-family: andale mono, monospace;
+}
+
+.careerBody {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    flex-direction: column;
+}

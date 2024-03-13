@@ -1,38 +1,36 @@
 .container {
-  padding-top: 70px;
-    margin: 1.5% 30%;
-    gap: 0.5rem;
-    /* border-bottom: #868aa4 1px solid; */
-  }
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 20%;
+}
 
-  .projectInfo {
-    max-width: 100%;
-    margin: 1.5% 3%;
-    gap: 0.5rem;
-    /* border-bottom: #868aa4 1px solid; */
-  }
-  
-  .projectName {
-    font-size: 1.75rem;
-    font-weight: 500;
-    font-family: andale mono, monospace;
-    color: #ff0000;
-    margin: 0.75rem 0;
-  }
+.nav{
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
 
-  .projectDescription {
-    font-size: 1rem;
-    font-weight: 500;
-    font-family: andale mono, monospace;
-    color: #ffffff;
-    margin: 0.1rem 0;
-  }
+.pageBody {
+  margin: 0 20%;
+  position: absolute;
+  top: 160px;
+}
 
-  .projectLink {
-    font-size: 1rem;
-    font-weight: 200;
-    font-family: andale mono, monospace;
-    color: #ff0000;
-    margin: 1rem 0;
-  }
+.projectTitle {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 1rem;
+  padding-bottom: 1rem;
+  font-family: andale mono, monospace;
+}
+
+.projectBody {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  flex-direction: column;
+}
   
