@@ -1,6 +1,6 @@
 import Navbar from "../../components/Navbar";
 import styles from "../../styles/Page.module.css";
-import ArticleCover from "../../assets/MST_1.png";
+import ArticleCover from "../../assets/merklesumtree/MST_1.png";
 
 const FederatedProverNetworkArticle = () => {
   return (

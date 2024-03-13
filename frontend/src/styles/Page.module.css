@@ -55,6 +55,7 @@ body {
     position: fixed;
     top: 155px;
     padding-bottom: 1rem;
+    z-index: 2;
   }
 
   .articleBody {
@@ -68,6 +69,10 @@ body {
 
   .articleImage {
     max-width: 100%;
+  }
+
+  .articleBodyLeft {
+    z-index: 1;
   }
   
   .tableContent {

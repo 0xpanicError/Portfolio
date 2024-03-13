@@ -174,10 +174,12 @@ const MerkleSumTreeArticle = () => {
           an attack.
           <h3>Mitigation</h3>
           This vulnerability was originally discovered in{" "}
-          <a href="https://eprint.iacr.org/2022/043.pdf">this</a> paper which
-          also provided mitigation solution. Include balances of both child
-          nodes in the hash of middle node Provide zk proof of hashing along
-          with merkle proof
+          <a href="https://eprint.iacr.org/2022/043.pdf" target="_blank">
+            this
+          </a>{" "}
+          paper which also provided mitigation solution. Include balances of
+          both child nodes in the hash of middle node Provide zk proof of
+          hashing along with merkle proof
           <br />
           <br />
           Instead of hashing the sum of balances of child nodes, a middle node
@@ -189,9 +191,11 @@ const MerkleSumTreeArticle = () => {
           inclusion.
           <br />
           <br />
-          <a href="https://eprint.iacr.org/2018/1139.pdf">This</a> paper talks
-          about another approach (taken by summa) in section 3.2 which is to
-          provide along with the Merkle proof, a ZK proof:{" "}
+          <a href="https://eprint.iacr.org/2018/1139.pdf" target="_blank">
+            This
+          </a>{" "}
+          paper talks about another approach (taken by summa) in section 3.2
+          which is to provide along with the Merkle proof, a ZK proof:{" "}
           <b>{"π = ZK.Prove{(x) : h = H(v||x)}"}</b>
           <br />A user after verifying this zk proof will be convinced that the
           balance of each leaf node is aggregated correctly. This is beacuse if
@@ -204,7 +208,10 @@ const MerkleSumTreeArticle = () => {
           Merkle Sum Tree construction, the circuits that include a sum
           constraint would not compile and generate a false proof.
           <br />
-          <a href="https://github.com/rkdud007/summa-solvency/pull/1">
+          <a
+            href="https://github.com/rkdud007/summa-solvency/pull/1"
+            target="_blank"
+          >
             Link to POC
           </a>
         </div>
