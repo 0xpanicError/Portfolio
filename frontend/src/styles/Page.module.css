@@ -4,6 +4,10 @@ body {
     font-family: andale mono, monospace;
   }
 
+  a {
+    color: #ff0000;
+  }
+
   .nav{
     position: fixed;
     top: 0;

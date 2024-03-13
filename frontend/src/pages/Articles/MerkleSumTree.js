@@ -198,6 +198,7 @@ const MerkleSumTreeArticle = () => {
           paper talks about another approach (taken by summa) in section 3.2
           which is to provide along with the Merkle proof, a ZK proof:{" "}
           <b>{"π = ZK.Prove{(x) : h = H(v||x)}"}</b>
+          <br />
           <br />A user after verifying this zk proof will be convinced that the
           balance of each leaf node is aggregated correctly. This is beacuse if
           the custodian tries lie about the liabilities commitment, they also
@@ -215,6 +216,11 @@ const MerkleSumTreeArticle = () => {
           >
             Link to POC
           </a>
+          <h3>Conclusion</h3>
+          The Merkle Sum Tree is a very important tool in the arsenal of
+          exchanges to prove their solvency. But it is important to understand
+          the vulnerabilities that come with it and the mitigation strategies
+          that can be used to prevent them.
         </div>
         <div className={styles.tableContent}>
           <h4>Table of Contents</h4>
@@ -237,6 +243,9 @@ const MerkleSumTreeArticle = () => {
             <br />
             Merkle Sum Tree
             <br />- Summa's approach
+            <br />
+            <br />
+            <li>Conclusion</li>
           </ul>
         </div>
       </div>
