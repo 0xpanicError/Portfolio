@@ -1,13 +1,16 @@
 import React from "react";
 import styles from "../styles/Project.module.css";
-import cover from "../assets/panic.png";
+import flockchain from "../assets/project/flockchain.png";
+import huff from "../assets/project/huff.png";
+import zkmask from "../assets/project/zkmask.png";
+import metamask from "../assets/project/metamask.png";
 
 const Projects = () => {
   return (
     <div className={styles.container}>
       <div className={styles.projectCard}>
         <div className={styles.projectInfo}>
-          <img src={cover} className={styles.projectCardImage} />
+          <img src={flockchain} className={styles.projectCardImage} />
           <div className={styles.headings}>
             <div className={styles.projectName}>FLockChain</div>
             <div className={styles.projectLinks}>
@@ -28,12 +31,12 @@ const Projects = () => {
       </div>
       <div className={styles.projectCard}>
         <div className={styles.projectInfo}>
-          <img src={cover} className={styles.projectCardImage} />
+          <img src={huff} className={styles.projectCardImage} />
           <div className={styles.headings}>
             <div className={styles.projectName}>HorseRiders</div>
             <div className={styles.projectLinks}>
               <a
-                href="https://github.com/BlocSoc-iitr/FLockChain"
+                href="https://github.com/BlocSoc-iitr/HorseRiders"
                 target="_blank"
                 className={styles.projectLink}
               >
@@ -49,12 +52,12 @@ const Projects = () => {
       </div>
       <div className={styles.projectCard}>
         <div className={styles.projectInfo}>
-          <img src={cover} className={styles.projectCardImage} />
+          <img src={zkmask} className={styles.projectCardImage} />
           <div className={styles.headings}>
             <div className={styles.projectName}>ZKMask</div>
             <div className={styles.projectLinks}>
               <a
-                href="https://github.com/BlocSoc-iitr/FLockChain"
+                href="https://github.com/zkMask"
                 target="_blank"
                 className={styles.projectLink}
               >
@@ -64,20 +67,17 @@ const Projects = () => {
           </div>
         </div>
         <div className={styles.projectDescription}>
-          ZKMask is the ultimate 2 Factor Authentication app needed to secure
-          all transactions through Face Recognition and proving the identity by
-          Zero Knowledge Proofs eliminating any centralization and privacy
-          risks.
+          ZKMask is a 2FA solution using face recognition and zk circuits.
         </div>
       </div>
       <div className={styles.projectCard}>
         <div className={styles.projectInfo}>
-          <img src={cover} className={styles.projectCardImage} />
+          <img src={metamask} className={styles.projectCardImage} />
           <div className={styles.headings}>
             <div className={styles.projectName}>MetaMask Snaps</div>
             <div className={styles.projectLinks}>
               <a
-                href="https://github.com/BlocSoc-iitr/FLockChain"
+                href="https://github.com/Bisht13/Inter-IIT-2k23"
                 target="_blank"
                 className={styles.projectLink}
               >
