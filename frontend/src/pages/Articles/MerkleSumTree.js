@@ -216,6 +216,13 @@ const MerkleSumTreeArticle = () => {
           >
             Link to POC
           </a>
+          <br />
+          Special thanks to{" "}
+          <a href="https://twitter.com/piapark_eth" target="_blank">
+            Pia Park
+          </a>
+          for contributing in this research and building the POC for this
+          atatck.
           <h3>Conclusion</h3>
           The Merkle Sum Tree is a very important tool in the arsenal of
           exchanges to prove their solvency. But it is important to understand

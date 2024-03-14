@@ -15,7 +15,7 @@ const Articles = () => {
           "https://aptosfoundation.org/brandbook/logomark/PNG/Aptos_mark_WHT.png"
         }
       />
-      <ArticleCard
+      {/* <ArticleCard
         slug={"provernetworks"}
         name={"Federated Prover Networks"}
         description={
@@ -32,7 +32,7 @@ const Articles = () => {
         image={
           "https://aptosfoundation.org/brandbook/logomark/PNG/Aptos_mark_WHT.png"
         }
-      />
+      /> */}
     </div>
   );
 };
