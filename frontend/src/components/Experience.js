@@ -10,7 +10,9 @@ const Experience = () => {
     <div className={styles.container}>
       <div className={styles.experienceCard}>
         <div className={styles.sub}>
-          <img src={eigenlayer} className={styles.experienceCardImage} />
+          <a href="https://www.eigenlayer.xyz" target="_blank">
+            <img src={eigenlayer} className={styles.experienceCardImage} />
+          </a>
           <div className={styles.headings}>
             <div className={styles.experienceCardHeading}>
               Protocol Research Intern
@@ -22,7 +24,9 @@ const Experience = () => {
       </div>
       <div className={styles.experienceCard}>
         <div className={styles.sub}>
-          <img src={yacademy} className={styles.experienceCardImage} />
+          <a href="https://yacademy.dev/" target="_blank">
+            <img src={yacademy} className={styles.experienceCardImage} />
+          </a>
           <div className={styles.headings}>
             <div className={styles.experienceCardHeading}>
               ZK Security Fellow
@@ -34,7 +38,9 @@ const Experience = () => {
       </div>
       <div className={styles.experienceCard}>
         <div className={styles.sub}>
-          <img src={push} className={styles.experienceCardImage} />
+          <a href="https://push.org" target="_blank">
+            <img src={push} className={styles.experienceCardImage} />
+          </a>
           <div className={styles.headings}>
             <div className={styles.experienceCardHeading}>
               Blockchain Developer Intern
@@ -48,7 +54,9 @@ const Experience = () => {
       </div>
       <div className={styles.experienceCard}>
         <div className={styles.sub}>
-          <img src={blocsoc} className={styles.experienceCardImage} />
+          <a href="https://blocsoc.iitr.ac.in/" target="_blank">
+            <img src={blocsoc} className={styles.experienceCardImage} />
+          </a>
           <div className={styles.headings}>
             <div className={styles.experienceCardHeading}>
               Joint Secretary | Developer
