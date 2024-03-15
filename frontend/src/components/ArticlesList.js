@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../styles/Articles.module.css";
 import ArticleCard from "./Card";
-import MerkleSumTreeCover from "../assets/merklesumtree/MST_logo.png";
+import MerkleSumTreeCover from "../assets/merklesumtree/MST_cover.png";
 
 const Articles = () => {
   return (
