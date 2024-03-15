@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../styles/Articles.module.css";
 import ArticleCard from "./Card";
+import MerkleSumTreeCover from "../assets/merklesumtree/MST_logo.png";
 
 const Articles = () => {
   return (
@@ -11,9 +12,7 @@ const Articles = () => {
         description={
           "What is a Merkle Sum Tree and how is it used in Proof of Solvency protocols?"
         }
-        image={
-          "https://aptosfoundation.org/brandbook/logomark/PNG/Aptos_mark_WHT.png"
-        }
+        image={MerkleSumTreeCover}
       />
       {/* <ArticleCard
         slug={"provernetworks"}

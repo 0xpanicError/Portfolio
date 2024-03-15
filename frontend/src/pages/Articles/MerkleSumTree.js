@@ -211,7 +211,7 @@ const MerkleSumTreeArticle = () => {
           constraint would not compile and generate a false proof.
           <br />
           <a
-            href="https://github.com/rkdud007/summa-solvency/pull/1"
+            href="https://www.piapark.me/blog/merkle-sum-tree-attack.html"
             target="_blank"
           >
             Link to POC

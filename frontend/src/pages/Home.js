@@ -23,7 +23,7 @@ function Home() {
           Secretary at the Blockchain Society, IIT Roorkee.
         </p>
         <p>
-          Before diving into the world of Blockchain, I was enganed in the field
+          Before diving into the world of Blockchain, I was engaged in the field
           of Quantum Computuing and Physics. I have also explored mechanical and
           racecar engineering in a motorsports club at my University. I had a
           deep passion for pursuing my curiosty in physics and technology.
