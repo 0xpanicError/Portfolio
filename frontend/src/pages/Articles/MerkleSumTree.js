@@ -65,7 +65,7 @@ const MerkleSumTreeArticle = () => {
             everything is mathematically guaranteed. This led to the creation of
             Proof of Solvency solutions, a cryptographic way to prove that an
             exchange holds more assets than the liabilities due to its users.
-            This would ensure that in case of bank run, the exchange would be
+            This would ensure that in case of a bank run, the exchange would be
             successful in satisfying the withdrawals of each and every user.
             <br />
             <h3>Proof of Solvency</h3>
@@ -228,7 +228,7 @@ const MerkleSumTreeArticle = () => {
             the balance of each leaf node is aggregated correctly. This is
             beacuse if the custodian tries lie about the liabilities commitment,
             they also would require to submit a zk proof for constructing the
-            tree which wouldnt be possible.
+            tree which wouldn't be possible.
             <br />
             <br />
             Proof of Concept for this attack shows that even if you modify the
@@ -246,7 +246,7 @@ const MerkleSumTreeArticle = () => {
             Special thanks to{" "}
             <a href="https://twitter.com/piapark_eth" target="_blank">
               Pia Park
-            </a>
+            </a>{" "}
             for contributing in this research and building the POC for this
             atatck.
             <h3>Conclusion</h3>
