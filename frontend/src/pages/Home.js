@@ -53,7 +53,7 @@ function Home() {
         <p>If you wanna chat, just hit me up!</p>
         <ul>
           <li>
-            <b>Email:</b> theyashsaraswat@gmail.com
+            <b>Email:</b> yash.saraswat@eigenlabs.org
           </li>
           <li>
             <b>Discord:</b> 0xpanicError
