@@ -250,10 +250,18 @@ const MerkleSumTreeArticle = () => {
             for contributing in this research and building the POC for this
             atatck.
             <h3>Conclusion</h3>
-            The Merkle Sum Tree is a very important tool in the arsenal of
-            exchanges to prove their solvency. But it is important to understand
-            the vulnerabilities that come with it and the mitigation strategies
-            that can be used to prevent them.
+            The Merkle Sum Tree is a unique way to include a commitment of
+            liabilities in a Proof of Solvency protocol. But with any new data
+            structure and/or cryptographic protocol, it is important to
+            understand the vulnerabilities and how to mitigate them.
+            <br />
+            <br />A thourough security analysis of any protocol, essentially in
+            the field of blockchain should be the top protity of any developer.
+            That's why is always a good idea to have a reputable third party
+            audit your code before deploying it to the mainnet. This is also a
+            reason why building in public is a good idea as it not only promotes
+            the idea of open source and transparent software but also allows the
+            community to review your code and provide feedback.
           </div>
           <div className={styles.tableContent}>
             <h4>Table of Contents</h4>
