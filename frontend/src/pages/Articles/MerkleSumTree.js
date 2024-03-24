@@ -262,6 +262,53 @@ const MerkleSumTreeArticle = () => {
             reason why building in public is a good idea as it not only promotes
             the idea of open source and transparent software but also allows the
             community to review your code and provide feedback.
+            <h3>References</h3>
+            <ul>
+              <li>
+                <a href="https://eprint.iacr.org/2022/043.pdf" target="_blank">
+                  Broken Proofs of Solvency in Blockchain Custodial Wallets and
+                  Exchanges
+                </a>
+              </li>
+              <li>
+                <a href="https://eprint.iacr.org/2018/1139.pdf" target="_blank">
+                  Breaking the Binding: Attacks on the Merkle Approach to Prove
+                  Liabilities and its Applications
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://eprint.iacr.org/2015/1008.pdf/"
+                  target="_blank"
+                >
+                  Provisions: Privacy-preserving proofs of solvency for Bitcoin
+                  exchanges
+                </a>
+              </li>
+              <li>
+                <a href="https://summa.gitbook.io/summa-book" target="_blank">
+                  Summa: A Zero-Knowledge Proof of Reserves tool designed for
+                  custodial services
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/summa-dev/summa-solvency/issues/166"
+                  target="_blank"
+                >
+                  Effiency Improvemnet in Summa's implementation of Broken
+                  Merkle Sum Tree
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.piapark.me/blog/merkle-sum-tree-attack.html"
+                  target="_blank"
+                >
+                  Proof of Concept for Merkle Sum Tree Attack
+                </a>
+              </li>
+            </ul>
           </div>
           <div className={styles.tableContent}>
             <h4>Table of Contents</h4>
@@ -287,6 +334,8 @@ const MerkleSumTreeArticle = () => {
               <br />
               <br />
               <li>Conclusion</li>
+              <br />
+              <li>References</li>
             </ul>
           </div>
         </div>
