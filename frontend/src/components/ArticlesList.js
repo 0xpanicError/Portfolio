@@ -2,10 +2,19 @@ import React from "react";
 import styles from "../styles/Articles.module.css";
 import ArticleCard from "./Card";
 import MerkleSumTreeCover from "../assets/merklesumtree/MST_cover.png";
+import EigenLayerAVSCover from "../assets/eigenlayeravs/AVS_Cover.png";
 
 const Articles = () => {
   return (
     <div className={styles.container}>
+      {/* <ArticleCard
+        slug={"eigenlayeravs"}
+        name={"EigenLayer AVS"}
+        description={
+          "How to build an Actively Validated Service on EigenLayer?"
+        }
+        image={EigenLayerAVSCover}
+      /> */}
       <ArticleCard
         slug={"merklesumtree"}
         name={"Merkle Sum Tree"}
@@ -14,24 +23,6 @@ const Articles = () => {
         }
         image={MerkleSumTreeCover}
       />
-      {/* <ArticleCard
-        slug={"provernetworks"}
-        name={"Federated Prover Networks"}
-        description={
-          "What is a Federated Prover Network and how does it work? What are its applications?"
-        }
-        image={
-          "https://aptosfoundation.org/brandbook/logomark/PNG/Aptos_mark_WHT.png"
-        }
-      />
-      <ArticleCard
-        slug={"eigenlayeravs"}
-        name={"EigenLayer AVS"}
-        description={"How to build an AVS on EigenLayer? A Technical Overview"}
-        image={
-          "https://aptosfoundation.org/brandbook/logomark/PNG/Aptos_mark_WHT.png"
-        }
-      /> */}
     </div>
   );
 };
