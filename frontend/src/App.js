@@ -7,6 +7,7 @@ import Articles from "./pages/Articles";
 import MerkleSumTreeArticle from "./pages/Articles/MerkleSumTree";
 import FederatedProverNetworkArticle from "./pages/Articles/FederatedProverNetwork";
 import EigenLayerAVSArticle from "./pages/Articles/EigenLayerAVS";
+import KZGArticle from "./pages/Articles/KZG";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           path="/articles/eigenlayeravs"
           element={<EigenLayerAVSArticle />}
         />
+        <Route path="/articles/kzg" element={<KZGArticle />} />
       </Routes>
     </Router>
   );

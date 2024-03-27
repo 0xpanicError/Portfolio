@@ -1,8 +1,8 @@
 import Navbar from "../../components/Navbar";
 import styles from "../../styles/Page.module.css";
-import ArticleCover from "../../assets/eigenlayeravs/AVS_Cover.png";
+import ArticleCover from "../../assets/kzg/paper_cover.png";
 
-const EigenLayerAVSArticle = () => {
+const KZGArticle = () => {
   return (
     <div>
       <div className={styles.container}>
@@ -10,7 +10,10 @@ const EigenLayerAVSArticle = () => {
           <Navbar />
         </div>
         <div className={styles.articleTitle}>
-          <h1>Demistifying the Incredible Squaring AVS by EIgenLayer</h1>
+          <h1>
+            How to prove knowledge of something without revealing it? A Deep
+            Dive into KZG Commitments
+          </h1>
           26th March, 2024
         </div>
         <div className={styles.articleBody}>
@@ -18,7 +21,7 @@ const EigenLayerAVSArticle = () => {
             <br />
             <img
               src={ArticleCover}
-              alt="EigenLayer AVS"
+              alt="KZG Commitments"
               className={styles.articleImage}
             />
             <br />
@@ -36,4 +39,4 @@ const EigenLayerAVSArticle = () => {
   );
 };
 
-export default EigenLayerAVSArticle;
+export default KZGArticle;

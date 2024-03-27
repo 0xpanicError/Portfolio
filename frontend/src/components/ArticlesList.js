@@ -8,6 +8,14 @@ const Articles = () => {
   return (
     <div className={styles.container}>
       {/* <ArticleCard
+        slug={"kzg"}
+        name={"KZG Commitments"}
+        description={
+          "How to prove knowledge of a polynomial without revealing it's coefficients?"
+        }
+        image={EigenLayerAVSCover}
+      /> */}
+      {/* <ArticleCard
         slug={"eigenlayeravs"}
         name={"EigenLayer AVS"}
         description={
